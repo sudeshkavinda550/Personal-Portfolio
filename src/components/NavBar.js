@@ -27,39 +27,7 @@ export const NavBar = () => {
 
   return (
     <Router>
-      <style>{`
-        /* Logo Text Styling */
-        .logo-text {
-          font-size: 28px;
-          font-weight: 700;
-          letter-spacing: 0.5px;
-        }
-        .logo-first {
-          color: #4A90E2;
-          transition: color 0.3s ease;
-        }
-        .logo-second {
-          color: #AA66CC;
-          transition: color 0.3s ease;
-        }
-        
-        /* Social Icon SVG Styling */
-        .social-icon a svg {
-          width: 42px;
-          height: 42px;
-          background: rgba(217, 217, 217, 0.1);
-          display: inline-flex;
-          border-radius: 50%;
-          align-items: center;
-          justify-content: center;
-          padding: 8px;
-          transition: 0.3s ease-in-out;
-        }
-        .social-icon a:hover svg {
-          background: rgba(217, 217, 217, 0.3);
-          transform: scale(1.1);
-        }
-      `}</style>
+      
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
