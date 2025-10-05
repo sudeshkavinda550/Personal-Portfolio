@@ -1,45 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\",
+  "WorkspaceRootPath": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\App.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Banner.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Banner.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Projects.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Projects.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\ProjectCard.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProjectCard.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Skills.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Skills.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\NavBar.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\NavBar.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\package.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\package.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\header-img.svg||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\img\\header-img.svg||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Contact.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Contact.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\logo.svg||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\assets\\img\\logo.svg||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\NavBar.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\NavBar.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\App.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\App.css||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.css||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Banner.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Banner.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Projects.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Projects.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Footer.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Footer.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\ProjectCard.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\ProjectCard.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Skills.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Skills.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\header-img.svg||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\App.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
@@ -64,7 +71,7 @@
         },
         {
           "DockedWidth": 129,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -72,86 +79,113 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectCard.js",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\ProjectCard.js",
-              "RelativeDocumentMoniker": "src\\components\\ProjectCard.js",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\ProjectCard.js",
-              "RelativeToolTip": "src\\components\\ProjectCard.js",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\.gitignore",
+              "RelativeToolTip": ".gitignore",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-05T05:36:48.943Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-05T16:53:40.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Contact.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Contact.js",
+              "RelativeDocumentMoniker": "src\\components\\Contact.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Contact.js",
+              "RelativeToolTip": "src\\components\\Contact.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-05T13:51:43.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Footer.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Footer.js",
+              "RelativeDocumentMoniker": "src\\components\\Footer.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Footer.js",
+              "RelativeToolTip": "src\\components\\Footer.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-05T13:08:42.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectCard.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\ProjectCard.js",
+              "RelativeDocumentMoniker": "src\\components\\ProjectCard.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\ProjectCard.js",
+              "RelativeToolTip": "src\\components\\ProjectCard.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-05T05:36:48.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Projects.js",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Projects.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Projects.js",
               "RelativeDocumentMoniker": "src\\components\\Projects.js",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Projects.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Projects.js",
               "RelativeToolTip": "src\\components\\Projects.js",
-              "ViewState": "AgIAADEBAAAAAAAAAAAmwEMBAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-10-05T05:36:42.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.css",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\App.css",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\App.css",
               "RelativeDocumentMoniker": "src\\App.css",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\App.css",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\App.css",
               "RelativeToolTip": "src\\App.css",
-              "ViewState": "AgIAANsAAAAAAAAAAAAAAOwAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAANEDAAAAAAAAAAAAANoDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-10-05T05:27:45.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\package.json",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\package.json",
               "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\package.json",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\package.json",
               "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-04T19:28:05.615Z"
+              "WhenOpened": "2025-10-04T19:28:05.615Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "header-img.svg",
               "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\header-img.svg",
-              "RelativeDocumentMoniker": "src\\assets\\img\\header-img.svg",
+              "RelativeDocumentMoniker": "..\\..\\personal-portfolio\\src\\assets\\img\\header-img.svg",
               "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\header-img.svg",
-              "RelativeToolTip": "src\\assets\\img\\header-img.svg",
+              "RelativeToolTip": "..\\..\\personal-portfolio\\src\\assets\\img\\header-img.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI4SURBVDhPlZVPbxJBGMafZZeF8C\u002BhIpHEmnjgAFUTDmo8GeLBC5d68VP4QTz4HUw8GC7CwYsnL9SENIGiYoyIqaBCpKmhgCzLzI7vwoaGdnYrT/JkJ\u002B\u002B882P\u002BvDMocFSpVKLJZPKeoihBJySVZVms1WrVCoVC3wmdSgjhtIBms7ljGMZ3xtjUy5QzabfbxVKptO0MXZPP\u002BYKSfaSAqqrBCxwKh8OPstnsMxl0BdxEtC1aJBLZlUE3BhIMfr8fuq5r8Xh8N5fLPS0Wi1tOtxw4NwQmx\u002BQ/520MffBbMcRCW0gkEloqlbqfTqevOEPlwJO\u002BwOyvgMXoVM\u002BaA\u002BZUwehoOVvyQs5QOVChaOQSLc0uIEqNXlbWbPfZOTK5hJf68YHj89s5hOUE/kOewGs5FTce\u002BhftTp2jc8AvhLsC7Zq39/Lo0MLPjxzvXsyw93yG7nuCnt6Hc3IFjgcC/S8cvU8c1ZcmpkM64ZHAftHE4Kv7NF2BWgDYvqXi\u002Bh0Ntx/rePAkuLDd1sOU4DJLKXBEs6u9muPg9RytvTntH0OnxuiQGA73GZpvGJWNnCgFGmOBb1WGLh3CaGDh5DeZvsOetdhDu29GOTJJgSodbDBGdUjLFlwBM\u002Bn2TJeFrIeWfXaOpxqNxk3TNPv0pAljbInjLve0MbHsVEFjftXr9R0HI59hIKwgftXn6UBoddvWtALSS2zL4JxPN7G9IE3TVnW0\u002BplyuRzNZDJ3KcnzL\u002BCs6FGe9nq9aj6fHwPAP4rjeuYwgEV/AAAAAElFTkSuQmCC",
               "WhenOpened": "2025-10-04T19:00:49.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "logo.svg",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\logo.svg",
-              "RelativeDocumentMoniker": "src\\assets\\img\\logo.svg",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\assets\\img\\logo.svg",
-              "RelativeToolTip": "src\\assets\\img\\logo.svg",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI4SURBVDhPlZVPbxJBGMafZZeF8C\u002BhIpHEmnjgAFUTDmo8GeLBC5d68VP4QTz4HUw8GC7CwYsnL9SENIGiYoyIqaBCpKmhgCzLzI7vwoaGdnYrT/JkJ\u002B\u002B882P\u002BvDMocFSpVKLJZPKeoihBJySVZVms1WrVCoVC3wmdSgjhtIBms7ljGMZ3xtjUy5QzabfbxVKptO0MXZPP\u002BYKSfaSAqqrBCxwKh8OPstnsMxl0BdxEtC1aJBLZlUE3BhIMfr8fuq5r8Xh8N5fLPS0Wi1tOtxw4NwQmx\u002BQ/520MffBbMcRCW0gkEloqlbqfTqevOEPlwJO\u002BwOyvgMXoVM\u002BaA\u002BZUwehoOVvyQs5QOVChaOQSLc0uIEqNXlbWbPfZOTK5hJf68YHj89s5hOUE/kOewGs5FTce\u002BhftTp2jc8AvhLsC7Zq39/Lo0MLPjxzvXsyw93yG7nuCnt6Hc3IFjgcC/S8cvU8c1ZcmpkM64ZHAftHE4Kv7NF2BWgDYvqXi\u002Bh0Ntx/rePAkuLDd1sOU4DJLKXBEs6u9muPg9RytvTntH0OnxuiQGA73GZpvGJWNnCgFGmOBb1WGLh3CaGDh5DeZvsOetdhDu29GOTJJgSodbDBGdUjLFlwBM\u002Bn2TJeFrIeWfXaOpxqNxk3TNPv0pAljbInjLve0MbHsVEFjftXr9R0HI59hIKwgftXn6UBoddvWtALSS2zL4JxPN7G9IE3TVnW0\u002BplyuRzNZDJ3KcnzL\u002BCs6FGe9nq9aj6fHwPAP4rjeuYwgEV/AAAAAElFTkSuQmCC",
-              "WhenOpened": "2025-10-04T18:06:00.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "App.js",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\App.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\App.js",
               "RelativeDocumentMoniker": "src\\App.js",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\App.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\App.js",
               "RelativeToolTip": "src\\App.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -159,37 +193,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Skills.js",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Skills.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Skills.js",
               "RelativeDocumentMoniker": "src\\components\\Skills.js",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Skills.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Skills.js",
               "RelativeToolTip": "src\\components\\Skills.js",
               "ViewState": "AgIAADsAAAAAAAAAAAAAAF8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-04T17:48:03.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T17:48:03.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "NavBar.js",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\NavBar.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\NavBar.js",
               "RelativeDocumentMoniker": "src\\components\\NavBar.js",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\NavBar.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\NavBar.js",
               "RelativeToolTip": "src\\components\\NavBar.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAABgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-10-04T17:43:01.336Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Banner.js",
-              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Banner.js",
+              "DocumentMoniker": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Banner.js",
               "RelativeDocumentMoniker": "src\\components\\Banner.js",
-              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\personal-portfolio\\src\\components\\Banner.js",
+              "ToolTip": "C:\\Users\\SUDESH\\Desktop\\New folder\\Personal-Portfolio\\src\\components\\Banner.js",
               "RelativeToolTip": "src\\components\\Banner.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
