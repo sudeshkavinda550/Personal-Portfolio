@@ -67,7 +67,7 @@ collaborative environments, have excellent communication and
 teamwork skills, and am dedicated to providing excellent,
 significant solutions.
 </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('contact')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
