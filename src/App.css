@@ -114,6 +114,7 @@ nav.navbar a.navbar-brand {
   overflow: visible;
   display: inline-block;
   flex-shrink: 0;
+  min-width: fit-content;
 }
 
 nav.navbar a.navbar-brand:hover {
@@ -297,8 +298,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Tablet - Medium devices (768px to 991px) */
 @media (max-width: 991px) {
   nav.navbar a.navbar-brand {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 0.5px;
+    max-width: calc(100vw - 120px);
   }
 
   nav.navbar .navbar-collapse {
@@ -349,13 +351,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   nav.navbar .container-fluid {
     justify-content: space-between;
   }
+  
+  nav.navbar .navbar-toggler {
+    flex-shrink: 0;
+  }
 }
 
 /* Mobile - Small devices (576px to 767px) */
 @media (max-width: 767px) {
   nav.navbar a.navbar-brand {
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.4px;
+    max-width: calc(100vw - 100px);
   }
 
   nav.navbar {
@@ -380,8 +387,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Extra small mobile devices (less than 576px) */
 @media (max-width: 575px) {
   nav.navbar a.navbar-brand {
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 0.3px;
+    max-width: calc(100vw - 90px);
   }
 
   nav.navbar .navbar-collapse {
@@ -413,8 +421,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Very small devices (less than 400px) */
 @media (max-width: 400px) {
   nav.navbar a.navbar-brand {
-    font-size: 16px;
+    font-size: 15px;
     letter-spacing: 0.2px;
+    max-width: calc(100vw - 85px);
   }
 
   nav.navbar .navbar-toggler {
@@ -430,6 +439,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   nav.navbar .navbar-toggler-icon:after,
   nav.navbar .navbar-toggler-icon:before {
     width: 20px;
+  }
+}
+
+/* Ultra small devices (less than 360px) */
+@media (max-width: 359px) {
+  nav.navbar a.navbar-brand {
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    max-width: calc(100vw - 80px);
+  }
+
+  nav.navbar {
+    padding: 10px 0;
   }
 }
 
