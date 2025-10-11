@@ -114,6 +114,7 @@ nav.navbar a.navbar-brand {
   overflow: visible;
   display: inline-block;
   flex-shrink: 0;
+  min-width: -webkit-fill-available; /* Samsung Internet 5.0+ */
   min-width: fit-content;
 }
 
