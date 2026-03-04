@@ -15,32 +15,33 @@ export const Projects = () => {
   const cardRefs = useRef([]);
 
   useEffect(() => {
-    const observerOptions = {
-      threshold: 0.2,
-      rootMargin: '0px 0px -80px 0px'
-    };
+  const observerOptions = {
+    threshold: 0.2,
+    rootMargin: '0px 0px -80px 0px'
+  };
 
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const index = parseInt(entry.target.dataset.index);
-          setVisibleCards(prev => [...new Set([...prev, index])]);
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
-
-    cardRefs.current.forEach((ref) => {
-      if (ref) observer.observe(ref);
+  const observerCallback = (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const index = parseInt(entry.target.dataset.index);
+        setVisibleCards(prev => [...new Set([...prev, index])]);
+      }
     });
+  };
 
-    return () => {
-      cardRefs.current.forEach((ref) => {
-        if (ref) observer.unobserve(ref);
-      });
-    };
-  }, []);
+  const observer = new IntersectionObserver(observerCallback, observerOptions);
+  const cards = cardRefs.current;  
+
+  cards.forEach((ref) => {         
+    if (ref) observer.observe(ref);
+  });
+
+  return () => {
+    cards.forEach((ref) => {       
+      if (ref) observer.unobserve(ref);
+    });
+  };
+}, []);
 
   const projects = [
     {
