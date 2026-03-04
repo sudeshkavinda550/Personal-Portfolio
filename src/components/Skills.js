@@ -21,7 +21,8 @@ import {
   SiTailwindcss,
   SiMongodb,
   SiExpress,
-  SiVite
+  SiVite,
+  SiPostgresql
 } from 'react-icons/si';
 
 export const Skills = () => {
@@ -59,6 +60,7 @@ export const Skills = () => {
         { name: "MySQL", icon: <SiMysql size={50} color="#4479A1" /> },
         { name: "MS SQL", icon: <FaDatabase size={50} color="#CC2927" /> },
         { name: "MongoDB", icon: <SiMongodb size={50} color="#47A248" /> },
+        { name: "PostgreSQL", icon: <SiPostgresql size={50} color="#336791" /> },
       ]
     },
     {

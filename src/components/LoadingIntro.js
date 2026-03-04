@@ -48,19 +48,21 @@ const LoadingIntro = ({ onFinish }) => {
 
 const styles = {
   container: {
-    position: "fixed",
-    top: 0,
-    left: 0,
-    width: "100%",
-    height: "100%",
-    background: "black",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    zIndex: 9999,
-    overflow: "hidden",
-    flexDirection: "column",
-    animation: "fadeOut 0.8s ease-out 3.8s forwards" // fade away near end
+  position: "fixed",
+  top: 0,
+  left: 0,
+  width: "100%",
+  height: "100%",
+  background: "#000000",          // change from "black" to "#000000"
+  backgroundColor: "#000000",     // ADD THIS as a fallback
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  zIndex: 9999,
+  overflow: "hidden",
+  flexDirection: "column",
+  animation: "fadeOut 0.8s ease-out 3.8s forwards",
+  isolation: "isolate",           // ADD THIS
   },
   textBox: {
     textAlign: "center"

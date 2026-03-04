@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/PicsArt_10-06-07.53.49.png";
+import headerImg from "../assets/img/profile video.mp4";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -57,13 +57,30 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
-          </Col>
+  <TrackVisibility>
+    {({ isVisible }) =>
+      <div className={isVisible ? "animate__animated animate__zoomIn" : ""}
+        style={{ overflow: "hidden", borderRadius: "12px" }}
+      >
+        <video
+          src={headerImg}
+          autoPlay
+          muted
+          playsInline
+          style={{
+            width: "100%",
+            maxWidth: "500px",
+            height: "700px",
+            display: "block",
+            margin: "0 auto",
+            objectFit: "cover",
+            objectPosition: "center top",
+            marginBottom: "-1px",
+          }}
+        />
+      </div>}
+  </TrackVisibility>
+</Col>
         </Row>
       </Container>
     </section>

@@ -114,7 +114,7 @@ nav.navbar a.navbar-brand {
   overflow: visible;
   display: inline-block;
   flex-shrink: 0;
-  min-width: -webkit-fill-available; /* Samsung Internet 5.0+ */
+  min-width: -webkit-fill-available; 
   min-width: fit-content;
 }
 
@@ -478,7 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  background-image: url('./assets/img/color-sharp.png');
+  background-color: #000000;          
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -549,9 +549,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
   max-width: 500px;
   height: auto;
-  border-radius: 50%;
-  border: 5px solid rgba(170, 54, 124, 0.3);
-  box-shadow: 0 0 40px rgba(170, 54, 124, 0.5);
   display: block;
   margin: 0 auto;
 }
@@ -958,7 +955,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         }
         
         .project h2 {
-          color: #ffffff;
+          color: #b0b0b0;
           font-size: 3rem;
           text-align: center;
           margin-bottom: 1rem;
@@ -1152,10 +1149,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         }
         
         .project-title {
-          color: #ffffff;
+          color: #b0b0b0;
           font-size: 1.3rem;
           margin-bottom: 0.9rem;
-          font-weight: 700;
+          font-weight: 5000;
         }
         
         .project-description {
@@ -1278,12 +1275,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* ========== CONTACT SECTION CSS ========== */
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #020202 -5.91%, #060606 111.58%);
   padding: 60px 0 200px 0;
 }
 
 .contact img {
-  width: 92%;
+  width: 72%;
 }
 
 .contact h2 {
@@ -1657,10 +1654,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .about-me {
   padding: 100px 0;
-  background-image: url('./assets/img/color-sharp2.png');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #000000;          
+  background-image: none;             
   position: relative;
 }
 
