@@ -56,7 +56,7 @@ export const Skills = () => {
       title: "Database Management",
       description: "Designing and optimizing modern relational & NoSQL databases.",
       skills: [
-        { name: "MS SQL", icon: <SiMicrosoftsqlserver size={50} color="#CC2927" /> },        
+        { name: "MySQL", icon: <SiMysql size={50} color="#4479A1" /> },
         { name: "MS SQL", icon: <FaDatabase size={50} color="#CC2927" /> },
         { name: "MongoDB", icon: <SiMongodb size={50} color="#47A248" /> },
         { name: "PostgreSQL", icon: <SiPostgresql size={50} color="#336791" /> },

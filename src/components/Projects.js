@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { FaHtml5, FaJsSquare, FaReact, FaDatabase, FaBootstrap } from 'react-icons/fa';
-import { SiMicrosoftsqlserver, SiDotnet, SiEspressif } from 'react-icons/si';
 import { SiDotnet, SiEspressif } from 'react-icons/si';
 import { useState, useEffect, useRef } from 'react';
 import projImg1 from "../assets/img/project-img1.png";
