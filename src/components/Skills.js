@@ -15,7 +15,6 @@ import {
 } from 'react-icons/fa';
 import { 
   SiMysql, 
-  SiMicrosoftsqlserver,
   SiBootstrap,
   SiC,
   SiTailwindcss,
