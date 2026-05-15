@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/PicsArt_10-06-07.53.49.png";
+// The Banner section image (Gemini) has been moved here to become the Contact image
+import contactImg from "../assets/img/Gemini_Generated_Image_pqvb7ipqvb7ipqvb-clean (1).png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -65,7 +66,20 @@ export const Contact = () => {
           <Col size={12} md={6}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
+                <img 
+                  className={isVisible ? "animate__animated animate__zoomIn" : ""} 
+                  src={contactImg} 
+                  alt="Contact Us"
+                  style={{
+                    width: "100%",
+                    maxWidth: "500px",
+                    height: "auto",
+                    display: "block",
+                    margin: "0 auto",
+                    borderRadius: "20px", // Rounded corners, matching the old Banner styling cue
+                    objectFit: "contain"
+                  }}
+                />
               }
             </TrackVisibility>
           </Col>
