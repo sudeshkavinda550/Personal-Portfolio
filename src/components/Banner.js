@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// Note: Ensure the filename matches exactly what is in your folder. 
-// It's highly recommended to rename the file to something simple like banner-img.png
-import headerImg from "../assets/img/Gemini_Generated_Image_pqvb7ipqvb7ipqvb-clean (1).png";
+// The Contact section image has been moved here to become the Banner image
+import bannerImg from "../assets/img/PicsArt_10-06-07.53.49.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -69,16 +68,17 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                   <img 
-                    src={headerImg} 
-                    alt="Header Img" 
+                    src={bannerImg} 
+                    alt="Banner Img" 
                     style={{
-                      width: "100%",
-                      maxWidth: "500px",
-                      height: "auto", // Set to auto to avoid stretching
+                      width: "400px",  // Force square dimensions for perfect circle
+                      height: "400px", // Force square dimensions for perfect circle
                       display: "block",
                       margin: "0 auto",
-                      borderRadius: "20px", // Optional: adds rounded corners
-                      objectFit: "contain"
+                      borderRadius: "50%", // True circular shape
+                      objectFit: "cover", // Ensures the image fills the circle without distortion
+                      boxShadow: "0 10px 30px rgba(0,0,0,0.5)", // Optional: adds depth
+                      border: "5px solid rgba(255,255,255,0.1)" // Optional: subtle border
                     }}
                   />
                 </div>
