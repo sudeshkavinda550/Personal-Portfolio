@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// Using the swapped image from the last request (Gemini-generated)
-import contactImg from "../assets/img/Gemini_Generated_Image_pqvb7ipqvb7ipqvb-clean (1).png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -29,12 +27,9 @@ export const Contact = () => {
     setButtonText("Sending...");
     
     try {
-      // Using Formspree for contact form handling
       let response = await fetch("https://formspree.io/f/xovkllpy", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: `${formDetails.firstName} ${formDetails.lastName}`,
           email: formDetails.email,
@@ -47,94 +42,44 @@ export const Contact = () => {
       
       if (response.ok) {
         setFormDetails(formInitialDetails);
-        setStatus({ success: true, message: 'Message sent successfully! I will get back to you soon.'});
+        setStatus({ success: true, message: 'Message sent successfully!'});
         setTimeout(() => setStatus({}), 5000);
       } else {
-        setStatus({ success: false, message: 'Something went wrong, please try again later.'});
+        setStatus({ success: false, message: 'Something went wrong.'});
       }
     } catch (error) {
       setButtonText("Send");
-      setStatus({ success: false, message: 'Failed to send message. Please try again later.'});
-      console.error('Error:', error);
+      setStatus({ success: false, message: 'Failed to send message.'});
     }
   };
 
   return (
     <section className="contact" id="connect">
       <Container>
-        <Row className="align-items-center">
-          <Col size={12} md={6}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-                <img 
-                  className={isVisible ? "animate__animated animate__zoomIn" : ""} 
-                  src={contactImg} 
-                  alt="Contact Us"
-                  style={{
-                    width: "400px",  // Square dimensions for perfect circle
-                    height: "400px", // Square dimensions for perfect circle
-                    display: "block",
-                    margin: "0 auto",
-                    borderRadius: "50%", // True circular shape
-                    objectFit: "cover", // Ensures the image fills the circle
-                    boxShadow: "0 10px 30px rgba(0,0,0,0.5)", // depth
-                    border: "5px solid rgba(255,255,255,0.1)" // subtle border
-                  }}
-                />
-              }
-            </TrackVisibility>
-          </Col>
-          <Col size={12} md={6}>
+        {/* Added justify-content-center to keep the form in the middle */}
+        <Row className="align-items-center justify-content-center">
+          <Col size={12} md={8} lg={6}>
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Get In Touch</h2>
+                <h2 className="text-center">Get In Touch</h2>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input 
-                        type="text" 
-                        value={formDetails.firstName} 
-                        placeholder="First Name" 
-                        onChange={(e) => onFormUpdate('firstName', e.target.value)} 
-                        required 
-                      />
+                      <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input 
-                        type="text" 
-                        value={formDetails.lastName} 
-                        placeholder="Last Name" 
-                        onChange={(e) => onFormUpdate('lastName', e.target.value)}
-                        required
-                      />
+                      <input type="text" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)} required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input 
-                        type="email" 
-                        value={formDetails.email} 
-                        placeholder="Email Address" 
-                        onChange={(e) => onFormUpdate('email', e.target.value)} 
-                        required
-                      />
+                      <input type="email" value={formDetails.email} placeholder="Email Address" onChange={(e) => onFormUpdate('email', e.target.value)} required />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input 
-                        type="tel" 
-                        value={formDetails.phone} 
-                        placeholder="Phone No." 
-                        onChange={(e) => onFormUpdate('phone', e.target.value)}
-                      />
+                      <input type="tel" value={formDetails.phone} placeholder="Phone No." onChange={(e) => onFormUpdate('phone', e.target.value)} />
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea 
-                        rows="6" 
-                        value={formDetails.message} 
-                        placeholder="Message" 
-                        onChange={(e) => onFormUpdate('message', e.target.value)}
-                        required
-                      ></textarea>
-                      <button type="submit"><span>{buttonText}</span></button>
+                      <textarea rows="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)} required></textarea>
+                      <button type="submit" className="vvd"><span>{buttonText}</span></button>
                     </Col>
                     {
                       status.message &&
