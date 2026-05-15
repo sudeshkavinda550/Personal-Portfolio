@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 // The Contact section image has been moved here to become the Banner image
-import bannerImg from "../assets/img/PicsArt_10-06-07.53.49.png";
+import bannerImg from "../assets/img/Gemini_Generated_Image_pqvb7ipqvb7ipqvb-clean (1).png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
