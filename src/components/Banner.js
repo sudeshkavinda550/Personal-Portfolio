@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// The Contact section image has been moved here to become the Banner image
 import bannerImg from "../assets/img/Gemini_Generated_Image_pqvb7ipqvb7ipqvb-clean (1).png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -71,14 +70,15 @@ export const Banner = () => {
                     src={bannerImg} 
                     alt="Banner Img" 
                     style={{
-                      width: "400px",  // Force square dimensions for perfect circle
-                      height: "400px", // Force square dimensions for perfect circle
+                      width: "100%",        // Takes full width of column on mobile
+                      maxWidth: "400px",    // Limits size on desktop
+                      aspectRatio: "1 / 1", // Forces square shape to keep circle perfect
                       display: "block",
-                      margin: "0 auto",
-                      borderRadius: "50%", // True circular shape
-                      objectFit: "cover", // Ensures the image fills the circle without distortion
-                      boxShadow: "0 10px 30px rgba(0,0,0,0.5)", // Optional: adds depth
-                      border: "5px solid rgba(255,255,255,0.1)" // Optional: subtle border
+                      margin: "20px auto",  // Adds spacing on mobile
+                      borderRadius: "50%", 
+                      objectFit: "cover", 
+                      boxShadow: "0 10px 30px rgba(0,0,0,0.5)",
+                      border: "5px solid rgba(255,255,255,0.1)"
                     }}
                   />
                 </div>
