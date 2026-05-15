@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// The Banner section image (Gemini) has been moved here to become the Contact image
+// Using the swapped image from the last request (Gemini-generated)
 import contactImg from "../assets/img/Gemini_Generated_Image_pqvb7ipqvb7ipqvb-clean (1).png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -71,13 +71,14 @@ export const Contact = () => {
                   src={contactImg} 
                   alt="Contact Us"
                   style={{
-                    width: "100%",
-                    maxWidth: "500px",
-                    height: "auto",
+                    width: "400px",  // Square dimensions for perfect circle
+                    height: "400px", // Square dimensions for perfect circle
                     display: "block",
                     margin: "0 auto",
-                    borderRadius: "20px", // Rounded corners, matching the old Banner styling cue
-                    objectFit: "contain"
+                    borderRadius: "50%", // True circular shape
+                    objectFit: "cover", // Ensures the image fills the circle
+                    boxShadow: "0 10px 30px rgba(0,0,0,0.5)", // depth
+                    border: "5px solid rgba(255,255,255,0.1)" // subtle border
                   }}
                 />
               }
